@@ -17,7 +17,7 @@ const LegendCard = ({ img, name, statistics }) => {
           ) : (
             <Card.Body>
               {statistics.map((item) => (
-                <ul className="ms-5">
+                <ul className="ms-4 list">
                   <li className="list-unstyled h5 text-start ">⚽{item}</li>
                 </ul>
               ))}
