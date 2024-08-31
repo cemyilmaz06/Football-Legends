@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Card, CardImg, Container, Image } from "react-bootstrap";
+import { Card, Container, Image } from "react-bootstrap";
 
 const LegendCard = ({ img, name, statistics }) => {
   const [show, setShow] = useState(true);
